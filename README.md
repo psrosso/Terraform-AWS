@@ -50,7 +50,7 @@ Entre na pasta do projeto:
 Terraform-AWS
 ```
 
-Insira suas credênciais AWS: (passo 5 no [Pré-requesitos-AWS](#Pré-requisitos-AWS)
+Insira suas credênciais AWS: (passo 5 no [Pré-requesitos-AWS](#Pré-requisitos-AWS))
 
 
 - Pela pasta: 
