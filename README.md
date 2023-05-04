@@ -61,19 +61,19 @@ resource "aws_lambda_function" "lambda_teste" {
 
 ## Como-rodar-a-aplicação
 
-No terminal, clone o projeto: 
+1️⃣ No terminal, clone o projeto: 
 
 ```
 https://github.com/psrosso/Terraform-AWS.git
 ```
 
-Entre na pasta do projeto:  
+2️⃣ Entre na pasta do projeto:  
 
 ```
 cd Terraform-AWS
 ```
 
-Insira suas credênciais AWS: (passo 5 no [Pré-requesitos-AWS](#Pré-requisitos-AWS))
+3️⃣ Insira suas credênciais AWS: (passo 5 no [Pré-requesitos-AWS](#Pré-requisitos-AWS))
 
 
 - Pela pasta: 
@@ -83,9 +83,9 @@ Insira suas credênciais AWS: (passo 5 no [Pré-requesitos-AWS](#Pré-requisitos
 - Pela extensão:
 ``AWS CLI Configure do vscode.``
 
-Faça as [Alterações que devem ser feitas no código](#Alterações-que-devem-ser-feitas-no-código)
+4️⃣ Faça as [Alterações que devem ser feitas no código](#Alterações-que-devem-ser-feitas-no-código)
 
-Execute no terminal: 
+5️⃣ Execute no terminal: 
 
 ``
 terraform init
