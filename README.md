@@ -47,7 +47,7 @@ https://github.com/psrosso/Terraform-AWS.git
 Entre na pasta do projeto:  
 
 ```
-Terraform-AWS
+cd Terraform-AWS
 ```
 
 Insira suas credênciais AWS: (passo 5 no [Pré-requesitos-AWS](#Pré-requisitos-AWS))
