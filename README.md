@@ -83,6 +83,8 @@ Insira suas credênciais AWS: (passo 5 no [Pré-requesitos-AWS](#Pré-requisitos
 - Pela extensão:
 ``AWS CLI Configure do vscode.``
 
+Faça as [Alterações que devem ser feitas no código](#Alterações-que-devem-ser-feitas-no-código)
+
 Execute no terminal: 
 
 ``
