@@ -6,9 +6,9 @@ Ele nos ajuda a garantir a consistência e escalabilidade da nossa infraestrutur
 
 :small_blue_diamond: [Descrição do projeto](#descrição-do-projeto)
 
-:small_blue_diamond: [Pré-requesitos-AWS](#Pré-requisitos-AWS)
+:small_blue_diamond: [Pré-requesitos AWS](#Pré-requisitos-AWS)
 
-:small_blue_diamond: [Pré-requesitos-Terraform](#Pré-requesitos-Terraform)
+:small_blue_diamond: [Pré-requesitos Terraform](#Pré-requesitos-Terraform)
 
 :small_blue_diamond: [Como rodar a aplicação](#como-rodar-a-aplicação)
 
