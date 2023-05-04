@@ -24,7 +24,7 @@ Neste repositório, você poderá criar recursos AWS como, LAMBDA, SNS,S3 BUCKET
 
 <!-- Configurar suas credenciais da AWS em sua máquina ou em um arquivo de configuração do Terraform. Isso pode ser feito configurando as variáveis de ambiente AWS_ACCESS_KEY_ID e AWS_SECRET_ACCESS_KEY -->
 
-## Como-rodar-a-aplicação
+# Como-rodar-a-aplicação
 a
 a
 a
