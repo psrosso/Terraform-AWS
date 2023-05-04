@@ -74,5 +74,5 @@ terraform plan
 terraform apply
 ``
 
-
+:trophy: Pronto, agora seus recursos AWS estão criados!! 
 
