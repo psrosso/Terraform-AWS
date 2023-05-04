@@ -10,6 +10,8 @@ Ele nos ajuda a garantir a consistência e escalabilidade da nossa infraestrutur
 
 :small_blue_diamond: [Pré-requesitos Terraform](#Pré-requesitos-Terraform)
 
+:small_blue_diamond: [Alterações que devem ser feitas no código](#Alterações-que-devem-ser-feitas-no-código)
+
 :small_blue_diamond: [Como rodar a aplicação](#como-rodar-a-aplicação)
 
 
@@ -35,6 +37,27 @@ Neste repositório, você poderá criar recursos AWS como, LAMBDA, SNS,S3 BUCKET
 ## Pré-requesitos-Terraform
 
 :warning: [Terraform](https://www.terraform.io/downloads.html)
+
+## Alterações-que-devem-ser-feitas-no-código
+
+```Terraform
+provider "aws" {
+  region = "us-east-1"
+}
+```
+➡️ Insira sua região AWS no lugar de "us-east-1", caso for outra. E certifique-se de mudar em todos os outros lugares também.
+
+```Terraform
+resource "aws_lambda_function" "lambda_teste" {
+  function_name = "arn:aws:lambda:us-east-1:000000000000:function:lambda-teste"
+  filename      = ""
+  handler       = "src/lambda_handler"
+  runtime       = var.type_python
+  memory_size   = 2048
+  timeout       = 300
+```
+➡️ Em todos os lugares que aparecer 000000000000 insira seu id count.
+
 
 ## Como-rodar-a-aplicação
 
