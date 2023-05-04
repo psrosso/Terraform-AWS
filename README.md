@@ -50,27 +50,27 @@ Terraform-AWS
 
 Insira suas credênciais AWS: (passo 5 no Pré-requisitos-AWS)
 
-'''
+
 - Pela pasta: 
-.aws
-## Ou ##
+``.aws``
+
+  OU
 - Pela extensão:
-AWS CLI Configure do vscode.
-'''
+``AWS CLI Configure do vscode.``
 
 Execute no terminal: 
 
-'''
+``
 terraform init
-'''
+``
 
-'''
+``
 terraform plan
-'''
+``
 
-'''
+``
 terraform apply
-'''
+``
 
 
 
