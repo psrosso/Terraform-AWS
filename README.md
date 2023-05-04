@@ -21,18 +21,20 @@ Neste repositório, você poderá criar recursos AWS como, LAMBDA, SNS,S3 BUCKET
 ## Pré-requisitos-AWS
 
 1 - Criar uma conta na AWS, caso ainda não tenha uma.
+
 2 - Fazer login no Console da AWS e criar um usuário IAM com permissões necessárias para criar e gerenciar recursos na AWS. É importante que o usuário tenha permissão para criar e gerenciar chaves de acesso.
+
 3 - Criar uma chave de acesso (access key) para o usuário IAM criado no passo anterior. As chaves de acesso são compostas por uma Access Key ID e uma Secret Access Key.
+
 4 - Instalar o AWS CLI (Command Line Interface) na máquina local da pessoa. A AWS CLI é uma interface de linha de comando que permite interagir com a AWS usando comandos no terminal.
-5 - Configurar o AWS CLI com as credenciais da chave de acesso criada no passo 3, para isso você tem 2 opções: 
+
+5 - Configurar o AWS CLI com as credenciais da chave de acesso criada no passo 3. Para isso você tem 2 opções: 
    - Entrar na pasta .aws que aparece ao instalar o AWS CLI(no passo 4) e colocar suas credenciais aws. 
    - Instalar a extensão do vscode 'AWS CLI Configure' e colocar suas credenciais diretamente por ela.
 
 ## Pré-requesitos-Terraform
 
 :warning: [Terraform](https://www.terraform.io/downloads.html)
-
-<!-- Configurar suas credenciais da AWS em sua máquina ou em um arquivo de configuração do Terraform. Isso pode ser feito configurando as variáveis de ambiente AWS_ACCESS_KEY_ID e AWS_SECRET_ACCESS_KEY -->
 
 ## Como-rodar-a-aplicação
 
@@ -48,7 +50,7 @@ Entre na pasta do projeto:
 Terraform-AWS
 ```
 
-Insira suas credênciais AWS: (passo 5 no Pré-requisitos-AWS)
+Insira suas credênciais AWS: (passo 5 no [Pré-requesitos-AWS](#Pré-requisitos-AWS)
 
 
 - Pela pasta: 
