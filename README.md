@@ -20,6 +20,21 @@ Ele nos ajuda a garantir a consistência e escalabilidade da nossa infraestrutur
 Neste repositório, você poderá criar recursos AWS como, LAMBDA, SNS,S3 BUCKET, GLUE DATABASE e GLUE TABLE com algumas configurações de exemplo que poderão ser adaptadas para a sua necessidade em específico. 
 </p>
 
+.
+├── data
+│   ├── processed            <-  Dados processados
+│   └── raw                  <-  Dados originais e imutáveis
+├── notebooks                <-  Jupyter notebooks. Padrão de nomenclatura é um número, as iniciais de quem criou,
+│                                e uma descrição ex.: `1.0-jt-coleção-de-links.ipynb`.
+├── README.md                <-  Arquivo README.md contendo as informações do projeto
+├── requirements.txt         <-  Arquivo de instalação de bibliotecas Python necessárias pra reproduzir o ambiente de análises.
+│                                gerado usando `pip freeze > requirements.txt`
+├── setup.py                 <-  Definições do pacote `src` que torna ele instalável usando o `pip`
+└── src                      <-  Módulo Python criado para este projeto
+    ├── data                 <-  Código para gerar/coletar dados
+    │   └── make_dataset.py
+    └── __init__.py
+
 ## Pré-requisitos-AWS
 
 1️⃣ - Criar uma conta na AWS, caso ainda não tenha uma.
