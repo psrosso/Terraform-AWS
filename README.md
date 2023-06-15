@@ -6,6 +6,8 @@ Ele nos ajuda a garantir a consistência e escalabilidade da nossa infraestrutur
 
 :small_blue_diamond: [Descrição do projeto](#descrição-do-projeto)
 
+:small_blue_diamond: [Estrutura do projeto](#estrutura-do-projeto)
+
 :small_blue_diamond: [Pré-requesitos AWS](#Pré-requisitos-AWS)
 
 :small_blue_diamond: [Pré-requesitos Terraform](#Pré-requesitos-Terraform)
@@ -20,7 +22,7 @@ Ele nos ajuda a garantir a consistência e escalabilidade da nossa infraestrutur
 Neste repositório, você poderá criar recursos AWS como, LAMBDA, SNS,S3 BUCKET, GLUE DATABASE e GLUE TABLE com algumas configurações de exemplo que poderão ser adaptadas para a sua necessidade em específico. 
 </p>
 
-## Estrutura do projeto
+## Estrutura-do-projeto
 
 ```
 .
